@@ -1,100 +1,130 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8"/>
+  <head>
+    <meta charset="UTF-8" />
     <title>Vlad CV</title>
-</head>
-<body>
-    <table cellspacing="15"> 
-        <tr>
-            <td>
-                <img src="Vlad.jpg" width="200" alt="here is my photo" />
-                <!-- <img src="https://glavcom.ua/img/article/4608/64_main.jpg" width="200"/> -->
-            </td>
-            <td>
-                <h1>Vladyslav Bereziuk</h1>    
-<p><em>I am a <strong>driver</strong></em></p>
-<p>I like to code and travel</p>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="Vlad.jpg" alt="here is my photo" class="avatar" />
+        <!-- <img src="https://glavcom.ua/img/article/4608/64_main.jpg" width="200"/> -->
 
-            </td>
-        </tr>
-    </table>
-   
+        <div class="info-text">
+            <h1>Vladyslav Bereziuk</h1>
+            <p>Enjoying <strong>coding</strong></p>
+            <p></p>
+                <h4>My social networks</h4>
+    
+                <a href="https://www.linkedin.com/in/vladyslav-bereziuk-9ab221197/" target="_blank">Linkedin</a>
+                |
+                <a href="https://instagram.com/vladbereziuk" target="_blank"
+                >Instagram</a>
 
-<hr> 
+        </div>
 
+       
+          
+      </div>
 
-<h2>My social networks</h2>
-<ul>
-    <li> <a href="https://facebook.com/vladbereziuk" target="_blank">Facebook</a></li>
+      
+
+      <div class="card bg-green">
+        <h2>My experience</h2>
+        <table class="table">
+            <tr>
+                <td>Hyaat</td>
+                <td>Driver</td>
+                <td>2021-2021</td>
+              </tr>
+          
+            
+            <tr>
+              <td>Eni Ukraine</td>
+              <td>Personal driver</td>
+              <td>2020-2021</td>
+            </tr>
+            <tr>
+                <td>Sixt</td>
+                <td>Driver</td>
+                <td>2019-2020</td>
+              </tr>
+              <tr>
+                <td>Carnival Cruise Lines</td>
+                <td>Sales Associate</td>
+                <td>2018-2019</td>
+              </tr>
+          
+        </table>
+      </div>
+
+     <div class="card bg-yellow">
+         <h2>My education</h2>
+        <ul class="list">
+          <li>Kyiv Politechnical Institute (Master)</li>
+          <li>Kyiv National Economical University (Bachelor)</li>
+          <li>Kyiv Military Lyceum </li>
+        </ul>
+        </div>
+
+        <div class="card bg-red">
+            <h2>Skills</h2>
+            <ul>
+                <li>Familiar with JavaScript, HTML, CSS </li>
+                <li>Studying React and NodeJS</li>
+                <li>Basics of C, bash shell and git</li>
+                <li>Fluent English</li>
+            </ul>
+            <!-- <a href="https://www.youtube.com/watch?v=bmS4Xz5JGn0"  target="_blank">How to become a coder</a> -->
+
+        </div>
+      
+      
      
-    <li> <a href="https://instagram.com/vladbereziuk" target="_blank">Instagram</a></li>
-</ul>
 
-<hr>
-<h2>My experience</h2>
-<table border="2">
-<thead>
-    <tr>
-        <th>company</th>
-        <th>position</th>
-        <th>years</th>
-    </tr>
-</thead>
-<tbody>
-    <tr>
-        <td>Sixt</td>
-        <td>Driver</td>
-        <td>2019-2020</td>
-    </tr>
-    <tr>
-        <td>Eni</td>
-        <td>Personal driver</td>
-        <td>2020-2021</td>
-    </tr>
-</tbody><tfoot>
-   
-</tfoot>
-</table>
-<hr>
+      <div class="contact">
+        <h2>Contact me</h2>
 
+        <form action="/">
+            <div class="row">
+                <div class="form-group">
+                    <label for="name">Your name:</label>
+              <input type="text" id="name" placeholder=" " />
+    
+                </div>
+              
+              <div class="form-group">
+                <label for="email">Your email:</label>
+                <input type="text" id="email" placeholder="" />
+                    
+            </div>
 
-<h2>My hobbies</h2> 
-<ol>
-<li>Sport</li>
-<li>Driving</li>
-<li>Travelling</li>
-</ol>
+            </div>
+           
+  
+          
+          <div class="form-group">
+            <label for="text">Your message:</label>
+            
+            <textarea name="" id="text" cols="30" rows="5"></textarea>
+                
+        </div>
+  
+          
+  
+        
+          <input class="btn" type="submit" value="Contact" />
+          
+        </form>
 
-<hr>
-<h2>Youtube courses</h2>
-<a href="youtube.html">Show the list</a>
-<hr>
+      </div>
+      <div class="position">
+          <div class="box"></div>
+      </div>
 
-<h2>Contact me</h2>
-
-<form action ="/">
-    <label for="name">Your name:</label>
- <input type="text" id="name"
- placeholder="put your name">
- <br>
-
- <label for="email">Your email:</label>
- <input type="text" id="email"
- placeholder="@email">
- <br>
- 
-
- <label for="text">Your text:</label>
- <br>
- <textarea name="" id="text" cols="30" rows="5"></textarea>
-
- <br>
- <input type="submit" value="Contact">
-
-
-</form>
-
-</body>
+     
+    </div>
+    <div style="margin-bottom: 500px;"></div>
+  </body>
 </html>
-
